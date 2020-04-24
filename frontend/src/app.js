@@ -8,11 +8,7 @@ import './components/styles/main.scss'
 
 
 import Navbar from './components/Navbar'
-// import Hero from './components/Hero'
-// import Profile from './components/Profile'
 
-// import { toast } from 'react-toastify'
-// import 'react-toastify/dist/ReactToastify.css'
 import HomePage from './components/HomePage'
 import Register from './components/RegistrationForm'
 import Login from './components/LoginForm'
@@ -35,18 +31,10 @@ const App = () => {
         <Route exact path="/sneakers" component={Collection}/>
         <Route exact path="/add" component={AddSneaker}/>
         <Route exact path="/edit/:id" component={EditSneaker}/>
-        {/* <SecureRoute exact path="/profile/:id" component={Profile} /> */}
       </Switch>
 
   </HashRouter >
 }
-
-
-
-
-
-
-
 
 
 ReactDOM.render(
