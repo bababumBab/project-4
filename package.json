@@ -1,0 +1,47 @@
+{
+  "name": "fresh_sneakers",
+  "version": "0.1.0",
+  "license": "BSD-3-Clause",
+  "main": "",
+  "scripts": {
+    "build": "webpack -p",
+    "serve:backend": "python manage.py runserver 4000",
+    "serve:frontend": "webpack-dev-server",
+    "start": "react-scripts start",
+    "build-react": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  },
+  "dependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-react": "^7.7.4",
+    "axios": "^0.19.2",
+    "babel-loader": "^8.0.6",
+    "bulma": "^0.8.2",
+    "bulma-calendar": "^6.0.7",
+    "css-loader": "^3.5.2",
+    "dayjs": "^1.8.25",
+    "eslint": "^6.8.0",
+    "eslint-plugin-react": "^7.18.3",
+    "html-webpack-plugin": "^3.2.0",
+    "moment": "^2.24.0",
+    "node-sass": "^4.13.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.1",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.1.2",
+    "svg-url-loader": "^5.0.0"
+  },
+  "description": "Fresh Sneakers APP",
+  "repository": "project-4",
+  "author": "Gabriel Antonica",
+  "private": false
+}

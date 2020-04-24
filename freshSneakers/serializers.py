@@ -35,7 +35,7 @@ class SneakerSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Sneaker
-        fields = ('id', 'image', 'product_code', 'brand', 'model_name', 'sneaker_type', 'date_added', 'date_of_last_use', 'user')
+        fields = ('id', 'image', 'product_code', 'brand', 'model_name', 'sneaker_type', 'date_added', 'date_of_last_use', 'user', 'release', 'retail_price', 'purchase_price', 'collection','collorway',)
         extra_kwargs = {'release':{'required': False}, 'retail_price':{'required': False}, 'purchase_price':{'required': False}, 'collection':{'required': False}}
 
 
@@ -43,7 +43,7 @@ class PopulatedSneakerSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Sneaker
-        fields = ('id', 'image', 'product_code', 'brand', 'model_name', 'sneaker_type', 'date_added', 'date_of_last_use', 'user')
+        fields = ('id', 'image', 'product_code', 'brand', 'model_name', 'sneaker_type', 'date_added', 'date_of_last_use', 'user', 'release', 'retail_price', 'purchase_price', 'collection','collorway',)
         extra_kwargs = {'release':{'required': False}, 'retail_price':{'required': False}, 'purchase_price':{'required': False}, 'collection':{'required': False}}
 
 

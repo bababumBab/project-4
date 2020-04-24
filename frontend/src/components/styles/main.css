@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Rubik:wght@300;400&display=swap");
+body {
+  background: linear-gradient(
+    -35deg,
+    #3f51b1 0%,
+    #5a55ae 13%,
+    #7b5fac 25%,
+    #8f6aae 38%,
+    #a86aa4 50%,
+    #f078a4 62%,
+    #476b94 75%,
+    #5db9b2 87%,
+    #2ab3a7 100%
+  );
+  background-size: 400% 400%;
+  animation: gradient 20s ease infinite;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body #root {
+  width: 100vw;
+}
+.section {
+  padding: 8rem 0 7rem;
+  text-align: center;
+}
+.section-heading,
+.section-description {
+  margin-bottom: 1.2rem;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0%;
+  }
+  50% {
+    background-position: 100%;
+  }
+  100% {
+    background-position: 0%;
+  }
+}
+#navbarBasicExample {
+  background: linear-gradient(
+    -45deg,
+    #3f51b1 0%,
+    #5a55ae 13%,
+    #7b5fac 25%,
+    #8f6aae 38%,
+    #a86aa4 50%,
+    #cc6b8e 62%,
+    #f18271 75%,
+    #f3a469 87%,
+    #f7c978 100%
+  );
+  background-size: 400% 400%;
+  animation: gradient 20s ease infinite;
+}
+#primary {
+  background: linear-gradient(
+    -45deg,
+    #3f51b1 0%,
+    #5a55ae 13%,
+    #7b5fac 25%,
+    #8f6aae 38%,
+    #a86aa4 50%,
+    #cc6b8e 62%,
+    #f18271 75%,
+    #f3a469 87%,
+    #f7c978 100%
+  );
+  background-size: 400% 400%;
+  animation: gradient 20s ease infinite;
+}
+#is-light {
+  background: linear-gradient(
+    -45deg,
+    #3f51b1 0%,
+    #5a55ae 13%,
+    #7b5fac 25%,
+    #8f6aae 38%,
+    #a86aa4 50%,
+    #cc6b8e 62%,
+    #f18271 75%,
+    #f3a469 87%,
+    #f7c978 100%
+  );
+  background-size: 400% 400%;
+  animation: gradient 20s ease infinite;
+}
+.hero {
+  border: 2px solid black;
+  height: 80vh;
+}
+.button-G {
+  font-family: Rubik;
+  min-width: 200px;
+  background-color: #504d4d;
+  color: #fff;
+  margin: 20px;
+  padding: 10px;
+}
+.button-G:hover {
+  background-color: #fff;
+  color: #000;
+  border: 0.5px solid black;
+}
+.button-A {
+  font-family: Rubik;
+  font-size: 1rem;
+  text-align: left;
+  width: 14%;
+  height: 5%;
+  padding: 10px;
+  margin: 20px;
+  background-color: #504d4d;
+  color: #fff;
+}
+.button-A:hover {
+  background-color: #fff;
+  color: #000;
+  border: 0.5px solid black;
+}
+.navbar-item {
+  font-family: Rubik;
+  font-size: 1rem;
+}
+h1 {
+  color: white;
+  font-family: Open Sans, sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  letter-spacing: 1rem;
+}
+#cover-image {
+  width: 30rem;
+  height: 30rem;
+  background-color: rgba(255, 0, 0, 0);
+}
+.card {
+  margin: 2rem;
+  padding-top: 30px;
+  height: 620px;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+p.model_name {
+  text-align: center;
+}
+.loginPageJ {
+  display: flex;
+  justify-content: space-between;
+}
+.loginPageJ .loginSectionJ {
+  z-index: 1;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-grow: 1;
+  height: 100%;
+  color: #000;
+}
+.loginPageJ .loginSectionJ .contentJ {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-end;
+  text-align: right;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  padding-right: 25%;
+  width: 100%;
+  margin-right: -25px;
+  min-height: 350px;
+}
+.loginPageJ .loginSectionJ .contentJ .title-m {
+  font-size: 28px;
+  font-weight: 600;
+  color: white;
+}
+.loginPageJ .loginSectionJ .contentJ .fieldJ {
+  color: #2e2e2e;
+}
+.loginPageJ .loginSectionJ .contentJ input {
+  min-width: 150px;
+  min-height: 20px;
+}
+.loginPageJ .loginSectionJ .contentJ input:hover {
+  background-color: #aaa;
+}
+.loginPageJ .loginSectionJ .contentJ .input-g {
+  width: 600px;
+  min-height: 20px;
+}
+.loginPageJ .loginSectionJ .contentJ .input-g:hover {
+  background-color: #aaa;
+}
+.loginPageJ .loginSectionJ .contentJ .title-g {
+  color: #2e2e2e;
+  font-size: 23px;
+}
+.loginPageJ .loginSectionJ .contentJ .buttonJ {
+  background-color: black;
+  color: #fff;
+  margin-top: 10px;
+  padding: 10px 25px;
+}
+.loginPageJ .loginSectionJ .contentJ .buttonJ:hover {
+  background-color: #fff;
+  color: #000;
+  border: 0.5px solid black;
+}
+.wrapRegisterJ {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+  margin-left: -10px;
+}
+.wrapRegisterJ .registerSectionJ {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+  height: 80vh;
+  width: 35vw;
+  border-left: 7px solid #aaa;
+  border-bottom: 7px solid #aaa;
+  border-radius: 80%;
+  margin: 30px -10px 30px 0;
+  color: #fff;
+}
+.wrapRegisterJ .registerSectionJ .toRegJ {
+  padding-left: 10%;
+}
+.fillJ {
+  height: 33px;
+  width: 300px;
+}

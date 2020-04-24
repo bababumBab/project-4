@@ -9,6 +9,7 @@ User = get_user_model()
 class Sneaker(models.Model):
     image = models.CharField(max_length=500, blank=True, default='')
     product_code = models.CharField(max_length=50, blank=True, default='')
+    collorway = models.CharField(max_length=100, blank=True, default='')
     brand = models.CharField(max_length=50)
     model_name = models.CharField(max_length=200, blank=True, default='')
     RELEASE_TYPE_CHOICES = [
@@ -34,7 +35,6 @@ class Sneaker(models.Model):
         ('GOLF', 'Golf'),
         ('RUGBY', 'Rugby'),
         ('WEIGHTLIFTING', 'Weightlifting'),
-        ('RUGBY', 'Rugby'),
         ('SKATEBOARDING', 'Skateboarding'),
     ]
     sneaker_type = models.CharField(
@@ -43,8 +43,8 @@ class Sneaker(models.Model):
         default='',
     )
     date_added = models.DateField(auto_now_add=True)
-    retail_price = models.CharField(validators=[validate_comma_separated_integer_list], max_length=200, blank=True, null=True, default='')
-    purchase_price = models.CharField(validators=[validate_comma_separated_integer_list], max_length=200, blank=True, null=True, default='')
+    retail_price = models.DecimalField(max_digits=20, decimal_places=2, default=0,)
+    purchase_price = models.DecimalField(max_digits=20, decimal_places=2, default=0,)
     collection = models.CharField(max_length=200, blank=True, default='')
     date_of_last_use = models.DateField()
     user = models.ForeignKey(User, on_delete=models.CASCADE,)
