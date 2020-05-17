@@ -3,7 +3,8 @@
 
 
 by [Gabriel Antonica](https://github.com/bababumBab)
-
+![alt text](https://github.com/bababumBab/project-4/blob/master/visuals/Screenshot%202020-05-17%20at%2021.56.43.png
+'FreshSneakers')
 
 
 ## Overview
@@ -34,7 +35,6 @@ The email doesn't need to be real as you won't be asked to confirm it.
     - [Front-end](#Front-end)
     - [File Structure](#File-structure)
 4. [Lessons learned](#Lessons-learned)
-5. [Credit](#credit)
 
 
 ## Brief
@@ -74,7 +74,7 @@ The email doesn't need to be real as you won't be asked to confirm it.
 
 - By using LucidChart I created a wireframe that helped me to plan from the start that the project will be split in two phases. I knew that I would have plenty to do and create and best way to think about an MVP and after it time allowed to move to second phase to add even more functionality to the project.
 
-![Wireframe]()
+![Wireframe](https://github.com/bababumBab/project-4/blob/master/visuals/Logical%20Data%20Model%20Example%20(1).png)
 
 - 
 
