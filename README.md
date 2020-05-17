@@ -76,8 +76,6 @@ The email doesn't need to be real as you won't be asked to confirm it.
 
 ![Wireframe](https://github.com/bababumBab/project-4/blob/master/visuals/Logical%20Data%20Model%20Example%20(1).png)
 
-- 
-
 
 ### Back-end
 
